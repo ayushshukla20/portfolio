@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+body{
+    background-color:rgb(0, 0, 33);
+    color: white;
+    height: 100%;
+    width: 100%;
+}
+header{
+    width: 100%;
+    height: 20vh;
+    
+    
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    height: 100px;
+}
+.nav h3{
+    color: rgb(238, 244, 232);
+    font-size: 30px;
+    margin-left: 25px;
+    margin-top: 35px;
+}
+.nav ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.3rem;
+    font-weight:bolder;
+    font-size: large;
+}
+li{
+    color:rgb(164, 220, 50);
+}
+a{
+    color: antiquewhite;
+}
+a:link{
+    text-decoration: none;
+}
+a:hover{
+    color:rgb(149, 238, 47);
+}
+.fa-brands{
+    padding: 7px;
+    top: 10px;
+    margin-right: 15px;
+    margin-top: 33px;
+}
+#about{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    color: rgb(237, 110, 55);
+    
+}
+#about img{
+    height:auto;
+    width: auto;
+    border-radius: 50%;
+    margin-right: 300px ;
+    
+}
+#about h1{
+    font-size:3rem;
+    color: rgb(241, 105, 201);
+}
+#about p{
+    font-size:1.3rem;
+    width: 35%;
+    color: rgb(223, 188, 59);
+    word-spacing: 10px;
+}
+.btn{
+    background-color: #291fb1;
+    color: white;
+    height: 45px;
+    width: 100px;
+    border-radius: 12px;
+    font-size: large;
+    margin-top: 10px;
+}
+.btn:hover{
+    height: 55px;
+    width: 110px;
+    background-color: black;
+    color: chocolate;
+}
+p,h1,button{
+    margin-left: 50px;
+    padding: 10px;
+}
+#contact{
+    position: relative;
+    margin-top: -18px;
+    text-align: center;
+    justify-content: center;
+    width: 48%;
+    left: -100px;
+    padding: 12px;
+}
+#contact p{
+    font-size: 1.5rem;
+    color: rgb(223, 188, 59);
+}
+#services{
+    position: relative;
+    left: 50px;
+    width: 30%;
+    margin-top: -238px;  
+    justify-content: center;
+    text-align: center;
+   
+} 
+#services li{
+    color: rgb(223, 188, 59);
+    font-size: large;
+    word-spacing: 4px;
+    list-style-type:none;
+}
